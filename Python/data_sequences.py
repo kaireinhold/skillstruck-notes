@@ -5,7 +5,7 @@
     #Example:
 friends = ["Kevin", "Lily", "Ajash", "Camilla"]
 print(friends)
-#If you want to get an output of only one of the data points in the list, you can put brackets and the index number of the data point(s) that you want to print.
+# If you want to get an output of only one of the data points in the list, you can put brackets and the index number of the data point(s) that you want to print.
     #Example:
 friends = ["Kevin", "Lily", "Ajash", "Camilla"]
 print(friends[2])
@@ -177,6 +177,47 @@ print(classmates)
 classmates.pop("Alice")
 print(classmates)
 
+    #Dictionary Length
+#You can check to see how many items are in the dictionary. As the same with Python lists, when counting length we start at 1.
+    #Example:
+classmates = {
+    "Billy":8,
+    "Vance":15,
+    "Alice":10,
+    "Lily":6,
+    "Xavier":12,
+}
+print(len(classmates))
+
+    #Check if a Key is in a Dictionary
+#Another use for Dictionaries is finding whether or not a Key is already in a dictionary or not. You can use 'in' and 'not in' to do this.
+    #Example using in:
+classmates = {
+    "Billy":8,
+    "Vance":15,
+    "Alice":10,
+    "Lily":6,
+    "Xavier":12,
+}
+if "Vance" in classmates:
+    print("Vance is in your dictionary")
+    #Example using not in:
+classmates = {
+    "Billy":8,
+    "Vance":15,
+    "Alice":10,
+    "Lily":6,
+    "Xavier":12,
+}
+if "Shelby" not in classmates:
+    print("Shelby is not in your dictionary")
+
+    #Converting from a List to a Dictionary
+#You can use the items in a list as dictionary keys.
+    #Example:
+garden = ["pumpkins", "squash", "corn", "tomatoes"]
+garden_dictionary = dict.fromkeys(garden, "Harvested")
+print(garden_dictionary)
 
     #Tuples:
 #Tuples are unordered and unchangeable. They allow duplicates.
