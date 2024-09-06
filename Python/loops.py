@@ -6,6 +6,7 @@
 #if [condition]:
     #[other code to be run]
 #Indenting is very important in Python. If your code is not properly indented, it will not run correctly and may even give you an error.
+    
     #Comparison Operators
 #A condition compares values using a comparison operator. Comparison operators are:
     #Greater than: >
@@ -136,6 +137,23 @@ for number in numbers:
         print(f"{number} is even")
     else:
         print(f"{number} is odd")
+
+    #Dictionary Examples:
+classmates = {
+    "Billy":8,
+    "Vance":12,
+    "Alice":10,
+    "Eliza":15,
+    "Xavier":6}
+for x in classmates:
+    print(x) #This prints all the keys in the dictionary: Billy Vance Alice Eliza Xavier
+#You can also print out the values:
+for x in classmates.values():
+    print(x) #This prints all the values: 8, 12, 10, 15, 6
+#You can also print out both keys and values:
+for x,y in classmates.items():
+    print(x,y) #This prints out all sets of key:value pairs in the dictionary: Billy 8 Vance 12 Alice 10 Eliza 15 Xavier 6
+
 #You can also use this to handle different types of data in a list.
     #Example:
 elements = [1, "hello", 3.5, True, None, [1, 2, 3], {"key": "value"}]
