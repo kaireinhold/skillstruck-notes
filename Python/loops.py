@@ -154,7 +154,20 @@ for x in classmates.values():
 for x,y in classmates.items():
     print(x,y) #This prints out all sets of key:value pairs in the dictionary: Billy 8 Vance 12 Alice 10 Eliza 15 Xavier 6
 
-#You can also use this to handle different types of data in a list.
+    #Using for loops to create a dictionary
+#You can use for loops to create a dictionary as well.
+    #Example:
+periods = int(input("How many calss periods do you have? "))
+schedule = {}
+for i in range(periods):
+    subject = input("What subject? ")
+    classmates = input("How many classmates do you have? ")
+    if subject not in schedule:
+        schedule[subject] = classmates
+print(schedule)
+
+
+#You can also use for loops to handle different types of data in a list.
     #Example:
 elements = [1, "hello", 3.5, True, None, [1, 2, 3], {"key": "value"}]
 for element in elements:
