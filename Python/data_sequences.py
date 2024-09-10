@@ -220,4 +220,26 @@ garden_dictionary = dict.fromkeys(garden, "Harvested")
 print(garden_dictionary)
 
     #Tuples:
-#Tuples are unordered and unchangeable. They allow duplicates.
+#Tuples are unchangeable, and they do allow duplicates.
+#They look similar to lists, but they use () instead of [] when being created and assigned.
+    #Accessing Tuple Items
+#Accessing an item in a Tuple is the same as most other things. You just call the index of whatever item you want to access. Remember, indexing starts at 0!
+    #Example:
+instruments = ("clarinet","piano","drum","violin")
+print(instruments[1]) #prints piano
+#Negative indexing with Tuples works the same as well. With negative indexing, you start counting from -1!
+    #Example:
+instruments = ("clarinet","piano","drum","violin")
+print(instruments[-1]) #prints violin
+#You can also print a range of indexes. Again, this is the same as with most other things. 
+    #Example:
+instruments = ("clarinet","piano","drum","violin","guitar")
+print(instruments[1:3]) #prints ('piano', 'drum')
+#Tuples are unchangeable, so you cannot change, add, or remove items from a Tuple after it is created. You can, however, check if an item exists within a tuple.
+    #Example:
+instruments = ("clarinet","piano","drum","violin","guitar")
+if "piano" in instruments:
+    print("The tuple contains the value of piano.")
+else:
+    print("The tuple does not contain the value of piano.")
+    #Prints The tuple contains the value of piano.
