@@ -114,4 +114,4 @@ check = "love" not in string1
 print(check) #outputs False, because the string 'love' is present in the larger string 'I love Coding!'
 #Characters in this ARE case sensitive, so you must type exactly what you are looking for.
 
-#This is useful if you want to check if a word or phrase is presend in a string that has hundreds of words, or if you want to check if the user inputs certain words.
+#This is useful if you want to check if a word or phrase is present in a string that has hundreds of words, or if you want to check if the user inputs certain words.
