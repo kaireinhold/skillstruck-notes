@@ -1,3 +1,33 @@
 /* Body Style*/ body { background-image: linear-gradient(#9dffff, #e7ccff); background-repeat:no-repeat;background-attachment: fixed;}
-/* Paragraph Style*/ p { background-image: linear-gradient(red,orange,yellow,lime,aqua,violet); background-repeat:no-repeat; }
-/*Heading 1 Style*/ h1 { background-image: linear-gradient(#a9148e,#e274cd); }
+/* Paragraph Style */ p { padding: 25px; background-image: linear-gradient(red,orange,yellow,lime,aqua,violet); background-repeat:no-repeat; opacity: 0.75; }
+p:hover { background-image: linear-gradient(black, black); color: white; }
+
+.button {
+    background-color: orange;
+    border: 2px solid orange;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+    padding: 15px 32px;
+    margin: 100px;
+    display: inline-block;
+    box-shadow: 9px 9px 5px 5px lightgrey;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    border: 2px solid orange;
+    color: orange;
+}
+
+.button:active {
+    background-color: white;
+    color: orange;
+    box-shadow: 4px 4px 5px 5px darkgrey;
+    transform: translateY(5px);
+}
