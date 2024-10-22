@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/CSS" href="clicker.css">
+    </head>
+    <body>
+        <p>Do Not Click The Button</p>
+           <button id="btn" onkeypress="return event.keyCode != 13;"> Click </button><br>
+   <p> Number of clicks: </p>
+   <div id = "score">0</div>
+   <script>
+    let counter = 0;
+    document.getElementById('btn').addEventListener ('click',counterInc);
+    function counterInc()
+    {
+        counter = counter + 1;
+        document.getElementById('score').innerText = counter;
+        };
+   </script>
+   <noscript>
+       Please enable JavaScript to have fun with a little button clicker!
+   </noscript>
+    </body>
+</html>
