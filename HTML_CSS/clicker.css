@@ -1,0 +1,4 @@
+#btn { background-color: rgba(255, 0, 0, 0.658); padding-top: 10px; padding-bottom: 10px; padding-left: 2px; padding-right: 2px; margin-left: 282.5px; border-radius: 500px;}
+body { background-image: linear-gradient(aliceblue, maroon, black); background-repeat:no-repeat;background-attachment: fixed; align-content: center; }
+p { text-align: center; }
+#score { text-align: center; }
