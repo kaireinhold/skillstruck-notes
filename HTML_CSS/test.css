@@ -31,3 +31,17 @@ p:hover { background-image: linear-gradient(black, black); color: white; }
     box-shadow: 4px 4px 5px 5px darkgrey;
     transform: translateY(5px);
 }
+
+
+.circle {
+    list-style: circle;
+}
+.square {
+    list-style: square;
+}
+.u-roman {
+    list-style: upper-roman;
+}
+.l-alpha {
+    list-style: lower-alpha;
+}
