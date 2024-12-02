@@ -33,3 +33,18 @@
 #                   `~?00b?000b?000b?000Pd00Pd000Pd00P'
 #                       `~?0b?0b?000b?0Pd0Pd000PdP~'
 # ''')
+
+
+
+
+
+grades = (95,70,85,92,100)
+print(grades)
+print(grades[-2])
+print(grades[0:3])
+
+
+
+
+
+
