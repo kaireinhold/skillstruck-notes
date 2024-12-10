@@ -1,15 +1,3 @@
-function lunch(num){
-    var orders = 0;
-    for (counter=0; counter<num; counter++ ){
-        var lunch = prompt(alert("Are you buying or packing a lunch?"));
-        if (lunch == "packing") {
-        alert("Take a seat.");
-        }
-        else {
-            alert("Order food.");
-            orders += 1;
-        }
-  }
-  alert("Number of students ordering: " + orders);
-}
-lunch(Number(prompt("How many people are eating lunch?")));
+var healthHistory = [100, 90, 55, 65, 30, 10, 20, 30, 5, 15, -10, 0];
+console.log(healthHistory.length);
+console.log(healthHistory[healthHistory.length - 2]);
