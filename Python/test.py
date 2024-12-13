@@ -34,3 +34,6 @@
 #                       `~?0b?0b?000b?0Pd0Pd000PdP~'
 # ''')
 
+my_list = ["natalia","have:",1000,"dolars","in",2020]
+list = map(str,my_list)
+print(" ".join(list))
